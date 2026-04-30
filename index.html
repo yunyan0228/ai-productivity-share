@@ -159,7 +159,7 @@
       <div class="section-title wide">
         <p class="eyebrow">Prompt Gallery</p>
         <h2>TOUTOU 生图案例库</h2>
-        <p>以下保留原文关键提示词，并加入分类筛选、关键词搜索、Prompt 拆解和复制入口。图片沿用附件远程链接，方便直接展示。</p>
+        <p>以下保留原文关键提示词，并加入分类筛选、关键词搜索、Prompt 拆解和复制入口。图片已本地化保存，上传网站时更稳定。</p>
       </div>
 
       <div class="gallery-controls glass" aria-label="案例筛选">
@@ -743,7 +743,6 @@
           <div class="prompt-panel open static">
             <pre><code>invoke_command:/plan 帮我把这篇文档生成一篇适合分享演讲的ppt格式的html，设计风格：采用 Apple Human Interface 风格：纯黑背景 + 毛玻璃卡片 + 动态光晕 + 渐变强调色 + San Francisco 风格无衬线字体，整体呈现沉稳、专业、有科技感的演示效果</code></pre>
           </div>
-          <a class="inline-link" href="https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW79LjXbQS5o3qm34JzlwrZgb?iframeQuery=anchorId%3DX02mojiot92haqavgw8ugq" target="_blank" rel="noreferrer">查看附件 index.html</a>
         </article>
         <article class="agent-card glass">
           <p class="eyebrow">Research</p>
@@ -805,6 +804,24 @@
   </main>
 
   <div class="toast" role="status" aria-live="polite">已复制 Prompt</div>
+
+  <div class="case-modal" role="dialog" aria-modal="true" aria-labelledby="caseModalTitle" hidden>
+    <div class="case-modal-backdrop" data-close-modal></div>
+    <article class="case-modal-panel glass">
+      <button class="case-modal-close" type="button" aria-label="关闭详情" data-close-modal>×</button>
+      <div class="case-modal-media" aria-label="案例完整图片"></div>
+      <div class="case-modal-content">
+        <div class="case-modal-meta"></div>
+        <h3 id="caseModalTitle"></h3>
+        <p class="case-modal-desc"></p>
+        <div class="case-modal-usage"></div>
+        <div class="case-modal-breakdown"></div>
+        <div class="case-modal-variables"></div>
+        <div class="case-modal-prompt"></div>
+        <button class="case-modal-copy" type="button">复制 Prompt</button>
+      </div>
+    </article>
+  </div>
 
   <footer class="footer section-shell">
     <p>AI 不是替代人，而是把想法更快变成可验证产物。</p>
