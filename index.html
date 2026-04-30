@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生产力 AI 工具分享</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到顶部">
+      <span>AI Productivity</span>
+      <strong>Internal Share</strong>
+    </a>
+    <nav aria-label="页面导航">
+      <a href="#tools">工具推荐</a>
+      <a href="#image2">Image2</a>
+      <a href="#gallery">案例库</a>
+      <a href="#workflow">PS 联动</a>
+      <a href="#agent">AI Agent</a>
+      <a href="#principles">Prompt 原则</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Personal Workflow Notes · 2026</p>
+        <h1>生产力 AI 工具分享</h1>
+        <p class="lead">把日常使用心得、TOUTOU 真实生图案例和 Agent 工作流整理成一个可展示、可浏览、可复制提示词的内容分享网站。</p>
+        <div class="hero-actions" aria-label="快速跳转">
+          <a href="#gallery" class="button primary">查看 Image2 案例</a>
+          <a href="#agent" class="button">查看 Agent 实战</a>
+        </div>
+      </div>
+      <aside class="hero-panel glass" aria-label="内容概览">
+        <div>
+          <strong>3</strong>
+          <span>工具类别</span>
+        </div>
+        <div>
+          <strong>11</strong>
+          <span>生图场景</span>
+        </div>
+        <div>
+          <strong>14</strong>
+          <span>案例图片</span>
+        </div>
+        <div>
+          <strong>10+</strong>
+          <span>Agent 产出</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="notice section-shell">
+      <div class="notice-card glass">
+        <p>以下所有分享均以个人日常使用心得为前提，仅供参考。</p>
+        <span>工具不是固定榜单，更适合作为不同工作场景下的选择参考。</span>
+      </div>
+    </section>
+
+    <section id="tools" class="section-shell">
+      <div class="section-title split">
+        <div>
+          <p class="eyebrow">Tool Stack</p>
+          <h2>工具推荐</h2>
+        </div>
+        <p>先选对工具，再谈效率。通用对话负责思考和信息整理，生图工具负责把想法变成视觉资产，Agent 负责把复杂目标持续推进到产出。</p>
+      </div>
+
+      <div class="tool-section">
+        <div class="subhead">
+          <h3>AI 通用对话</h3>
+          <p>适合写作、分析、提示词结构优化、资讯判断和方案推演。</p>
+        </div>
+        <div class="tool-grid four">
+          <article class="tool-card glass">
+            <div class="tool-top"><h4>Claude</h4><span>★★★★★</span></div>
+            <p>优化提示词结构，最严谨。</p>
+            <small>注意事项：需要梯子，容易封号。</small>
+          </article>
+          <article class="tool-card glass">
+            <div class="tool-top"><h4>Grok</h4><span>★★★</span></div>
+            <p>资讯搜索，背靠推特，时效性最强。</p>
+            <small>注意事项：需要梯子。</small>
+          </article>
+          <article class="tool-card glass">
+            <div class="tool-top"><h4>Deepseek</h4><span>★★★★</span></div>
+            <p>新模型 V4，能力很强，API 便宜。</p>
+            <small>注意事项：暂无。</small>
+          </article>
+          <article class="tool-card glass">
+            <div class="tool-top"><h4>MiMo</h4><span>★★★★</span></div>
+            <p>免费体验 MiMo Claw，目前的黑马模型。</p>
+            <small>注意事项：免费体验过程每次 1 小时，注意保存文件。</small>
+          </article>
+        </div>
+        <blockquote class="quote glass">
+          <strong>豆包说明</strong>
+          <p>豆包作为目前国民级用户最多的通用对话模型，各方面能力都还可以，但都不太突出，而且由于其国民性，也是【AI 投毒】事件的重灾区，导致有时候查询一些重要信息会得到完全误导性的回答。日常使用没问题，生产力帮助不太大，且反馈的部分信息需要自己有一定的甄别能力，故这里不太推荐。</p>
+        </blockquote>
+      </div>
+
+      <div class="tool-section">
+        <div class="subhead">
+          <h3>AI 绘图</h3>
+          <p>从“做灵感图”升级为“生产内容资产”：品牌视觉、电商图、种草图、直播素材、IP 形象、物料设计都可以先快速看到方向。</p>
+        </div>
+        <div class="tool-grid two">
+          <article class="tool-card glass featured">
+            <div class="tool-top"><h4>ChatGPT</h4><span>★★★★★</span></div>
+            <p>最新模型 Image2.0 无脑强推，试过就知道。</p>
+            <small>注意事项：需要梯子，需要会员。</small>
+          </article>
+          <article class="tool-card glass">
+            <div class="tool-top"><h4>Gemini</h4><span>★★★★</span></div>
+            <p>Nano Banana 模型，Gemini 会员免费用。</p>
+            <small>注意事项：需要梯子，Gemini 会员免费用。</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="image2" class="section-shell image2-section">
+      <div class="section-title split">
+        <div>
+          <p class="eyebrow">GPT-Image-2 Playbook</p>
+          <h2>Image2 方法论</h2>
+        </div>
+        <p>参考提示词网站的结构，把案例从“截图展示”改造成“场景、用途、变量、Prompt 拆解、复制复用”五件套。</p>
+      </div>
+      <div class="method-grid">
+        <article class="method-card glass">
+          <span>01</span>
+          <h3>按用途分类</h3>
+          <p>品牌、电商、社媒、直播、IP、广告、物料分别展示，讲解时能快速切换到对应场景。</p>
+        </article>
+        <article class="method-card glass">
+          <span>02</span>
+          <h3>把 Prompt 结构化</h3>
+          <p>每个案例拆成角色背景、目标产物、风格要求、平台约束、输出规格，方便复用和迭代。</p>
+        </article>
+        <article class="method-card glass">
+          <span>03</span>
+          <h3>保留变量入口</h3>
+          <p>品牌、产品、主题、比例、平台、语气都可以替换，不把案例锁死在 TOUTOU 一次生成里。</p>
+        </article>
+        <article class="method-card glass">
+          <span>04</span>
+          <h3>连接真实工作流</h3>
+          <p>生成后继续拆图、合成 PSD、转成电商详情页或社媒内容，才是真正的生产力闭环。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section-shell">
+      <div class="section-title wide">
+        <p class="eyebrow">Prompt Gallery</p>
+        <h2>TOUTOU 生图案例库</h2>
+        <p>以下保留原文关键提示词，并加入分类筛选、关键词搜索、Prompt 拆解和复制入口。图片沿用附件远程链接，方便直接展示。</p>
+      </div>
+
+      <div class="gallery-controls glass" aria-label="案例筛选">
+        <div class="filter-row" role="group" aria-label="按分类筛选案例">
+          <button class="filter-chip active" type="button" data-filter="all">全部</button>
+          <button class="filter-chip" type="button" data-filter="brand">品牌视觉</button>
+          <button class="filter-chip" type="button" data-filter="commerce">电商素材</button>
+          <button class="filter-chip" type="button" data-filter="social">社媒内容</button>
+          <button class="filter-chip" type="button" data-filter="live">直播素材</button>
+          <button class="filter-chip" type="button" data-filter="ip">IP 形象</button>
+          <button class="filter-chip" type="button" data-filter="campaign">广告创意</button>
+          <button class="filter-chip" type="button" data-filter="material">物料设计</button>
+        </div>
+        <label class="search-box">
+          <span>搜索案例</span>
+          <input type="search" id="caseSearch" placeholder="输入关键词，例如：小红书、五一、详情页">
+        </label>
+      </div>
+
+      <p class="result-count" aria-live="polite"><span id="visibleCount">11</span> 个案例正在显示</p>
+
+      <div class="case-grid">
+        <article class="case-card glass" data-category="brand" data-title="品牌视觉系统" data-tags="TOUTOU 品牌视觉 logo 主色 辅助色 字体 版式 海报 网页 包装 社交媒体">
+          <div class="case-cover">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/10a8b850-0c4c-44f0-b94b-e2d08ec59748.png" alt="ChatGPT 生成的 TOUTOU 品牌视觉系统" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>01</span>
+              <strong>品牌视觉</strong>
+            </div>
+            <h3>品牌视觉系统</h3>
+            <p>从 logo 延展到色彩、字体、版式、图形语言和多场景应用，适合品牌视觉方向快速起稿。</p>
+            <div class="usage-list">
+              <span>品牌升级</span>
+              <span>视觉规范</span>
+              <span>物料延展</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>背景：18～25 岁年轻女孩市场，女包品牌，主张无负担悦己。</li>
+                <li>目标：生成完整品牌视觉系统，而不是单张海报。</li>
+                <li>约束：高级感、现代、简洁、统一性、国际化审美。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>品牌名</span>
+              <span>目标人群</span>
+              <span>品牌主张</span>
+              <span>应用场景</span>
+            </div>
+            <div class="prompt-panel" id="prompt-brand-visual">
+              <pre><code>TOUTOU是一家主打18～25岁年轻女孩市场的女包品牌，主张【无负担悦己】。基于这个logo，生成一整套完整的品牌视觉系统。整体风格要求高级感、现代、简洁、突出品牌质感与统一性。请延展品牌主色、辅助色、字体风格、版式规范、图形语言、品牌海报、网页视觉移动端界面、名片、包装或社交媒体物料等应用场景，确保整体视觉统一、精致，并具有国际化审美。</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-brand-visual">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass" data-category="commerce" data-title="海报设计" data-tags="五一 出行季 产品海报 2:3">
+          <div class="case-cover portrait">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/89750e65-3757-4132-a0f8-e73164e60c1e.png" alt="五一出行季产品海报" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>02</span>
+              <strong>电商素材</strong>
+            </div>
+            <h3>海报设计</h3>
+            <p>用简短需求直接测试模型审美和构图能力，适合快速探索节日营销方向。</p>
+            <div class="usage-list">
+              <span>节日营销</span>
+              <span>产品海报</span>
+              <span>视觉试稿</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>主题：五一出行季。</li>
+                <li>产物：产品海报图。</li>
+                <li>规格：2:3 比例，风格交给模型发挥。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>产品</span>
+              <span>节点主题</span>
+              <span>比例</span>
+            </div>
+            <div class="prompt-panel" id="prompt-poster">
+              <pre><code>给这个产品设计一张产品海报图，对应五一出行季，风格你自由发挥，比例2:3</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-poster">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass wide-card" data-category="commerce" data-title="电商详情页" data-tags="天猫 详情页 中文长图 联名款 包包">
+          <div class="case-cover pair">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/5ffceef0-f7d7-4f82-905b-879e75531633.png" alt="天猫详情页长图一" loading="lazy">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/5e61ed8a-6c1f-4c00-84a2-04c245abb795.png" alt="天猫详情页长图二" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>03</span>
+              <strong>电商素材</strong>
+            </div>
+            <h3>电商详情页</h3>
+            <p>将单张产品图转成适配平台的中文详情长图，适合先拿到页面叙事和卖点排序。</p>
+            <div class="usage-list">
+              <span>天猫详情</span>
+              <span>卖点提炼</span>
+              <span>长图排版</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>对象：TOUTOU 联名款包包。</li>
+                <li>平台：天猫。</li>
+                <li>格式：中文长图模式。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>平台</span>
+              <span>产品类型</span>
+              <span>语言</span>
+              <span>页面模式</span>
+            </div>
+            <div class="prompt-panel" id="prompt-detail">
+              <pre><code>图片是toutou的联名款包包，请根据图片生成一套天猫平台适用的详情图，中文长图模式</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-detail">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass" data-category="commerce" data-title="电商展示图" data-tags="销售 产品展示 电商图 包包">
+          <div class="case-cover">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/7707bcaf-473b-43a2-9eba-6757ee6213f1.png" alt="电商产品展示图" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>04</span>
+              <strong>电商素材</strong>
+            </div>
+            <h3>电商展示图</h3>
+            <p>围绕销售用途生成一组产品展示图，适合主图、详情页模块和投放素材的初稿。</p>
+            <div class="usage-list">
+              <span>销售素材</span>
+              <span>产品主图</span>
+              <span>场景图</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>对象：当前包包。</li>
+                <li>产物：一组电商产品展示图。</li>
+                <li>目的：用于销售。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>产品</span>
+              <span>销售渠道</span>
+              <span>图组数量</span>
+            </div>
+            <div class="prompt-panel" id="prompt-display">
+              <pre><code>为这个包包生成一组电商产品展示图，用于销售</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-display">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass" data-category="social" data-title="小红书分享图文" data-tags="小红书 种草 包包 使用分享 不官方">
+          <div class="case-cover">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/01c882cd-4496-4932-afce-f2cee96c29fc.png" alt="小红书包包使用分享图文" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>05</span>
+              <strong>社媒内容</strong>
+            </div>
+            <h3>小红书分享图文</h3>
+            <p>把产品图转成更像真实用户分享的种草图文，重点是降低官方感。</p>
+            <div class="usage-list">
+              <span>小红书</span>
+              <span>种草内容</span>
+              <span>生活化表达</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>平台：小红书。</li>
+                <li>语气：流行、分享感、不要太官方。</li>
+                <li>对象：TOUTOU 联名款包包。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>平台</span>
+              <span>内容语气</span>
+              <span>产品故事</span>
+            </div>
+            <div class="prompt-panel" id="prompt-xhs">
+              <pre><code>图片是toutou的联名款包包，帮我生成小红书流行的包包使用分享图文，不要太官方</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-xhs">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass" data-category="live" data-title="直播界面素材" data-tags="直播 社交媒体 透哥 商品卡 聊天消息 礼物弹窗">
+          <div class="case-cover">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/018eeee0-3133-4428-abff-2832cd0742f5.png" alt="透哥直播界面素材" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>06</span>
+              <strong>直播素材</strong>
+            </div>
+            <h3>直播界面素材</h3>
+            <p>将人物肖像与直播 UI 叠加，生成可用于直播脚本演示或素材提案的场景图。</p>
+            <div class="usage-list">
+              <span>直播间预演</span>
+              <span>购买卡片</span>
+              <span>社交 UI</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>主体：男主播【透哥】正在介绍包包。</li>
+                <li>界面：社交媒体直播界面。</li>
+                <li>元素：聊天消息、礼物弹窗、商品购买卡片。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>主播人设</span>
+              <span>平台 UI</span>
+              <span>商品卡信息</span>
+            </div>
+            <div class="prompt-panel" id="prompt-live">
+              <pre><code>生成逼真的社交媒体直播界面，叠加在人物肖像之上（男主播【透哥】正在介绍toutou的这款包包），包含可自定义的聊天消息、礼物弹窗和商品购买卡片。</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-live">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass wide-card" data-category="ip" data-title="虚拟 IP 形象设计" data-tags="虚拟IP TOUTOU 透哥 女包品牌 无负担悦己">
+          <div class="case-cover pair">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/a23bff23-5c94-4e99-b19b-ce04db0649f3.png" alt="TOUTOU 虚拟 IP 形象一" loading="lazy">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/8beb9e9e-1d0d-44da-870b-cf76c7b7bd0c.png" alt="TOUTOU 虚拟 IP 形象二" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>07</span>
+              <strong>IP 形象</strong>
+            </div>
+            <h3>虚拟 IP 形象设计</h3>
+            <p>从品牌定位出发生成拟人化虚拟 IP，后续可继续补充【透哥】这类真实 IP 参考。</p>
+            <div class="usage-list">
+              <span>品牌 IP</span>
+              <span>角色设定</span>
+              <span>社媒人格</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>品牌：TOUTOU 女包。</li>
+                <li>受众：18～25 岁年轻女孩。</li>
+                <li>精神：无负担悦己。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>品牌定位</span>
+              <span>人群年龄</span>
+              <span>IP 性格</span>
+            </div>
+            <div class="prompt-panel" id="prompt-ip">
+              <pre><code>帮我给TOUTOU设计一个虚拟ip形象，TOUTOU是一家主打18～25岁年轻女孩市场的女包品牌，主张【无负担悦己】
+
+（后续又补充了一张【透哥】的）</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-ip">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass" data-category="campaign" data-title="广告创意草图" data-tags="广告创意 草图 hello kitty 联名 无负担悦己 活力可爱">
+          <div class="case-cover">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/5ea09652-7ed2-43fb-9f1d-1e93ba6ac877.png" alt="Hello Kitty 联名广告创意草图" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>08</span>
+              <strong>广告创意</strong>
+            </div>
+            <h3>广告创意草图</h3>
+            <p>用“主题 + 联名对象 + 构图气质”快速生成广告方向，适合创意会前铺路。</p>
+            <div class="usage-list">
+              <span>联名广告</span>
+              <span>创意草图</span>
+              <span>构图探索</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>联名：TOUTOU x Hello Kitty。</li>
+                <li>主题：无负担悦己。</li>
+                <li>画面：活力可爱构图。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>联名对象</span>
+              <span>广告主题</span>
+              <span>构图风格</span>
+            </div>
+            <div class="prompt-panel" id="prompt-campaign">
+              <pre><code>帮我生成一组广告创意草图，toutou联名hello kitty女包品牌广告，无负担悦己主题，活力可爱构图</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-campaign">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass wide-card" data-category="campaign" data-title="产品模特街拍" data-tags="9宫格 模特 街拍 唯美 高级感 五一出行季">
+          <div class="case-cover pair">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/c4f55914-673b-4695-bc15-1fbc0c160785.png" alt="五一出行季模特街拍图一" loading="lazy">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/a4d3c5ff-81c2-44ff-a4c0-c2fc6a690b67.png" alt="五一出行季模特街拍图二" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>09</span>
+              <strong>广告创意</strong>
+            </div>
+            <h3>产品模特街拍</h3>
+            <p>将产品带入假日街拍场景，获得一组更接近社媒传播和品牌大片之间的视觉素材。</p>
+            <div class="usage-list">
+              <span>街拍图组</span>
+              <span>五一出行</span>
+              <span>模特展示</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>形式：9 宫格展示图。</li>
+                <li>主体：模特展示品牌包包。</li>
+                <li>氛围：唯美、高级感、五一出行季。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>图组规格</span>
+              <span>季节主题</span>
+              <span>拍摄风格</span>
+            </div>
+            <div class="prompt-panel" id="prompt-street">
+              <pre><code>生成一组9宫格的模特展示图片中品牌包包的街拍图，唯美，高级感（五一出行季主题）</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-street">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass" data-category="campaign" data-title="产品大片广告" data-tags="时尚大片 国际范 代言人 官宣海报 高级感">
+          <div class="case-cover">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/4175ebd7-bea3-488d-bb56-a8f408031066.png" alt="产品大片广告图" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>10</span>
+              <strong>广告创意</strong>
+            </div>
+            <h3>产品大片广告</h3>
+            <p>将产品包装成更高级的品牌广告海报，适合官宣、campaign key visual 和提案封面。</p>
+            <div class="usage-list">
+              <span>品牌大片</span>
+              <span>官宣海报</span>
+              <span>KV 方向</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>产物：时尚大片广告图。</li>
+                <li>气质：高级感、国际范。</li>
+                <li>用途：品牌代言人官宣海报。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>广告用途</span>
+              <span>品牌气质</span>
+              <span>人物关系</span>
+            </div>
+            <div class="prompt-panel" id="prompt-fashion">
+              <pre><code>设计一张图片中包包的时尚大片广告图，高级感，国际范，品牌代言人官宣海报</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-fashion">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="case-card glass wide-card" data-category="material" data-title="周边物料设计（包裹卡）" data-tags="包裹卡 创始人手写信 二维码 免费维修权益 无负担悦己 海报">
+          <div class="case-cover">
+            <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/0569b29c-a07a-4f77-a6f2-7750c905715a.png" alt="TOUTOU 包裹卡设计" loading="lazy">
+          </div>
+          <div class="case-body">
+            <div class="case-meta">
+              <span>11</span>
+              <strong>物料设计</strong>
+            </div>
+            <h3>周边物料设计（包裹卡）</h3>
+            <p>把品牌故事、维修权益、二维码和主题海报合并成一张可收藏的包裹卡设计。</p>
+            <div class="usage-list">
+              <span>包裹卡</span>
+              <span>私域引流</span>
+              <span>品牌故事</span>
+            </div>
+            <div class="prompt-breakdown">
+              <strong>Prompt 拆解</strong>
+              <ul>
+                <li>正面：创始人手写信、二维码、创始人签名。</li>
+                <li>背面：无负担悦己主题海报，画面不需要包包。</li>
+                <li>风格：高级感、克制、温和、可信、美观、愿意收藏。</li>
+              </ul>
+            </div>
+            <div class="variables">
+              <span>创始人故事</span>
+              <span>权益入口</span>
+              <span>正反面内容</span>
+            </div>
+            <div class="prompt-panel" id="prompt-card">
+              <pre><code>给TOUTOU品牌设计一张包裹卡，正面是品牌创始人手写信+二维码（扫码加入我们，激活免费维修权益）+创始人签名（月梅）
+
+背面是品牌相关【无负担悦己】主题海报，画面不需要包包
+
+整体风格高级感、克制、温和、可信、美观，用户愿意收藏
+
+正面手写信的内容如下：
+
+亲爱的朋友：
+
+2014 年，是我和先生携手创业的第10年，已经在箱包行业经营十载的我们决定以女儿之名创立自己的品牌toutou“透透”，寓意坦荡通透。而经常陪女儿光顾的甜品店则成了我们无数款包包的灵感来源。
+
+2014年至今，从第一名用户到上千万粉丝，十年间我们坚持让包袋在满足日常功能的同时，用独特和甜趣消解沉闷，我们相信，包包不仅是日常配件，更是可以陪伴女孩们走过不同人生阶段、带来无数个小确幸的礼物。
+
+如今，我已是三个孩子的妈妈，但即便如此，对于“toutou”这个我们共同孕育的“孩子”，我从未有过片刻的缺席与疏忽。像对待自己女儿一样呵护自己的品牌，是我永远不变的初心和坚守！
+
+愿这只趣味而精致的包，陪你在每一个平凡的日子里，都能欢喜自在、悦己而活。感谢与你相遇，在奔赴未来的路上，敢于冲破桎梏自在前行，愿我们成为逐梦路上照亮彼此的光。</code></pre>
+            </div>
+            <div class="case-actions">
+              <button type="button" class="prompt-toggle" aria-expanded="false" aria-controls="prompt-card">展开 Prompt</button>
+              <button type="button" class="copy-button">复制 Prompt</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="workflow" class="section-shell">
+      <div class="section-title split">
+        <div>
+          <p class="eyebrow">Advanced Workflow</p>
+          <h2>联动 PS 玩法</h2>
+        </div>
+        <p>生图只是第一步。把画面拆成可编辑元素，再合成 PSD，设计同事就能继续调层级、改字、换素材。</p>
+      </div>
+      <div class="workflow-grid">
+        <div class="steps glass">
+          <article>
+            <span>01</span>
+            <h3>正常生图</h3>
+            <p>随便生成一张符合要求的图片，先确定方向和整体氛围。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>拆图</h3>
+            <p>Thinking 模式中让 ChatGPT 把生成图片再分成一张张 PNG 图片。</p>
+            <pre><code>将图片的元素拆分成一张张png图片，元素位置不变，画面尺寸不变，底色为白色</code></pre>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>合成</h3>
+            <p>点击左下角的【+】按钮，点击【更多】-选择【PS】，输入合成提示词。</p>
+            <pre><code>将全部图片合成一个psd文件，去掉白底，每个元素为一个单独的图层</code></pre>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>下载</h3>
+            <p>下载生成的 PSD 文件即可，后续进入常规设计编辑流程。</p>
+          </article>
+        </div>
+        <figure class="workflow-shot glass">
+          <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5bEzp6gNlxo/img/69e12b7d-c7d5-4311-85ad-4578c8e3c355.png" alt="ChatGPT 联动 Photoshop 的入口示意图" loading="lazy">
+          <figcaption>
+            附件录屏：<a href="https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW79LjXbQS5o3qm34JzlwrZgb?iframeQuery=anchorId%3DX02mojii4y018ymiek2ve2" target="_blank" rel="noreferrer">录屏2026-04-29 11.42.50.mov</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="agent" class="section-shell">
+      <div class="section-title split">
+        <div>
+          <p class="eyebrow">AI Agent</p>
+          <h2>AI Agent 实战</h2>
+        </div>
+        <p>Agent 工具不只回答问题，更适合把一个目标拆成任务并持续推进。过去两周的核心收获，是让 AI 参与完整产出链路。</p>
+      </div>
+
+      <div class="tool-grid three">
+        <article class="tool-card glass featured">
+          <div class="tool-top"><h4>Trae Solo</h4><span>★★★★★</span></div>
+          <p>MTC 模式，专门给非程序员使用的生产力工具，上手门槛低（主力使用）。</p>
+          <small>注意事项：内测，需要邀请码。</small>
+        </article>
+        <article class="tool-card glass">
+          <div class="tool-top"><h4>Codex</h4><span>★★★★</span></div>
+          <p>各方面能力都很强，但需要一定的学习成本（辅助使用，学习中）。</p>
+          <small>注意事项：需要梯子，ChatGPT Plus 会员可用。</small>
+        </article>
+        <article class="tool-card glass">
+          <div class="tool-top"><h4>Claude Code</h4><span>★★★★</span></div>
+          <p>目前全球最强，使用和学习门槛高。</p>
+          <small>注意事项：门槛高、贵贵贵。</small>
+        </article>
+      </div>
+
+      <div class="data-block glass">
+        <div class="subhead">
+          <h3>Trae Solo 的使用场景</h3>
+          <p>过去两周，我用 MTC 模式辅助完成了以下工作，全部为真实产出。</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>产出类型</th>
+                <th>文档名称</th>
+                <th>规模</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>竞品深度调研</td><td>透透皮具私域竞品分析与会员体系设计方案</td><td>9家品牌、6章、约12000字</td></tr>
+              <tr><td>品牌战略研究</td><td>Songmont 品牌战略深度研究报告</td><td>7章+附录、含用户旅程地图</td></tr>
+              <tr><td>完整项目PRD</td><td>TOUTOU 私域会员体系项目PRD</td><td>10章+附录、约15000-20000字</td></tr>
+              <tr><td>会员体系方案</td><td>透透皮具私域会员体系搭建方案 V3.0</td><td>8大模块、含积分体系/小程序规划</td></tr>
+              <tr><td>企微运营SOP</td><td>企微 SOP 详细文档 V2.1</td><td>8大SOP、含话术模板库</td></tr>
+              <tr><td>私域落地指南</td><td>基于 Songmont 对标的私域运营落地指南</td><td>包裹卡/小程序/企微全链路方案</td></tr>
+              <tr><td>能力对比分析</td><td>企微与小程序在会员体系中的角色分析</td><td>10章、15+维度对比</td></tr>
+              <tr><td>SCRM可行性标注</td><td>企微SOP逐项SCRM可行性分析</td><td>逐项标注实现方式</td></tr>
+              <tr><td>汇报演示文稿</td><td>14页 HTML 演示文稿</td><td>含动画和演讲者模式</td></tr>
+              <tr><td>数据表格</td><td>企微用户标签体系 Excel</td><td>完整标签体系分类</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="agent-grid">
+        <article class="agent-card glass">
+          <p class="eyebrow">HTML Deck</p>
+          <h3>演示文稿 HTML</h3>
+          <p>更推荐 HTML 格式而非 PPT 格式，全部由前端渲染，视觉效果更好，响应速度更快，产出物体积更小更易分享。</p>
+          <div class="prompt-panel open static">
+            <pre><code>invoke_command:/plan 帮我把这篇文档生成一篇适合分享演讲的ppt格式的html，设计风格：采用 Apple Human Interface 风格：纯黑背景 + 毛玻璃卡片 + 动态光晕 + 渐变强调色 + San Francisco 风格无衬线字体，整体呈现沉稳、专业、有科技感的演示效果</code></pre>
+          </div>
+          <a class="inline-link" href="https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW79LjXbQS5o3qm34JzlwrZgb?iframeQuery=anchorId%3DX02mojiot92haqavgw8ugq" target="_blank" rel="noreferrer">查看附件 index.html</a>
+        </article>
+        <article class="agent-card glass">
+          <p class="eyebrow">Research</p>
+          <h3>竞品调研与行业分析</h3>
+          <p>提效关键：给出明确的品牌清单、统一的调研维度、指定输出格式，AI 就能自动完成结构化调研。</p>
+          <div class="prompt-panel open static">
+            <pre><code>调研以下9家品牌的私域运营模式：Coach、完美日记、瑞幸咖啡、泡泡玛特、名创优品、Charles & Keith、Songmont、DISSONA、Pedro。每个品牌从以下维度分析：会员体系设计、企微运营策略、小程序功能、私域引流方式、核心数据。最后输出对比矩阵和差异化分析。用Markdown格式，分章节，含表格。</code></pre>
+          </div>
+        </article>
+        <article class="agent-card glass">
+          <p class="eyebrow">PRD & SOP</p>
+          <h3>产品 PRD 与 SOP</h3>
+          <p>推荐输出 Markdown，适用性更强，且方便修改。复杂文档先用 Plan 模式规划框架，确认后再逐章填充。</p>
+          <ul class="plain-list">
+            <li>企微 SOP 详细文档 V2.1：8 大 SOP，含完整话术模板库。</li>
+            <li>保持“透哥”品牌 IP 人设一致，统一所有话术风格。</li>
+            <li>基于 SOP 进一步生成 SCRM 可行性分析，逐项标注工具实现方式。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="principles" class="section-shell">
+      <div class="section-title split">
+        <div>
+          <p class="eyebrow">Prompt Principles</p>
+          <h2>操作技巧与实践</h2>
+        </div>
+        <p>Prompt 的价值不在“神奇句式”，而在于把背景、目标、约束和输出方式说清楚。</p>
+      </div>
+      <div class="data-block glass">
+        <div class="subhead">
+          <h3>高效 Prompt 的 5 个原则</h3>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>原则</th>
+                <th>说明</th>
+                <th>示例</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>明确角色</td><td>告诉 AI 你是谁、在做什么</td><td>我是品牌运营，正在搭建私域会员体系</td></tr>
+              <tr><td>给足背景</td><td>提供品牌信息、约束条件</td><td>均价200元、60%回购率、18-28岁女性用户</td></tr>
+              <tr><td>指定格式</td><td>明确输出格式和结构</td><td>Markdown格式，含表格，分章节输出</td></tr>
+              <tr><td>分步执行</td><td>复杂任务先规划再执行</td><td>先用 Plan 模式出框架，确认后再填充内容</td></tr>
+              <tr><td>迭代优化</td><td>基于初稿持续调整</td><td>V2.1版本，维修权益调整为银卡及以上会员专属</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <aside class="final-note glass">
+        <h3>注意事项</h3>
+        <p>AI 生成内容很多基于网上资料搜索，可能存在过时、错误、不适配等情况，需要自己谨慎甄别。真正有价值的部分，是让 AI 快速产出可讨论、可验证、可继续修改的初稿。</p>
+      </aside>
+    </section>
+  </main>
+
+  <div class="toast" role="status" aria-live="polite">已复制 Prompt</div>
+
+  <footer class="footer section-shell">
+    <p>AI 不是替代人，而是把想法更快变成可验证产物。</p>
+  </footer>
+</body>
+</html>
