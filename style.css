@@ -415,8 +415,7 @@ h4 {
 .final-note,
 .quote,
 .steps,
-.workflow-shot,
-.case-card {
+.workflow-shot {
   will-change: transform;
 }
 
@@ -617,6 +616,8 @@ h4 {
   display: flex;
   flex-direction: column;
   width: 100%;
+  content-visibility: auto;
+  contain-intrinsic-size: 620px 760px;
 }
 
 .case-card:hover {
@@ -1133,6 +1134,11 @@ h4 {
 .workflow-shot {
   border-radius: var(--radius);
   padding: 22px;
+}
+
+.workflow-shot {
+  content-visibility: auto;
+  contain-intrinsic-size: 460px 620px;
 }
 
 .steps {

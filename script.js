@@ -113,7 +113,17 @@ function openCaseModal(card) {
   const images = Array.from(card.querySelectorAll(".case-cover img"));
   const promptPanel = card.querySelector(".prompt-panel");
 
-  modalMedia.replaceChildren(...images.map((image) => image.cloneNode(true)));
+  modalMedia.replaceChildren(...images.map((image) => {
+    const fullImage = image.cloneNode(true);
+    const fullSrc = image.dataset.full;
+    if (fullSrc) {
+      fullImage.src = fullSrc;
+      fullImage.removeAttribute("srcset");
+    }
+    fullImage.loading = "lazy";
+    fullImage.decoding = "async";
+    return fullImage;
+  }));
   if (modalMeta) {
     modalMeta.innerHTML = `<span>${metaNumber}</span><strong>${metaCategory}</strong>`;
   }
